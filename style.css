@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -9,12 +11,83 @@ body {
   color: black;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  font-family: "Outfit", sans-serif;
-  padding-top: 4rem;
+  font-family: "Playfair Display", serif;
+  padding-top: 10px;
+  margin: 0 10px;
   gap: 1rem;
 }
 
-img {
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+section img {
   border-radius: 9999px;
 }
+
+.avaSocmed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.socmed {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: 7px;
+}
+
+.socmedIconTg {
+  width: 24px;
+}
+
+.socmedIconYt {
+  width: 30px;
+}
+
+.socmedIconFb {
+  width: 24px;
+}
+
+main {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links div:not(:last-child){
+  margin-bottom: 1rem;
+}
+
+.links div{
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 20px;
+  box-shadow: 4px 6px 0 #fff;
+  border: 2px solid beige;
+  width: 60%;
+  padding: 10px 10px;
+}
+
+.links div:hover{
+  border: 2px solid black;
+}
+
+
